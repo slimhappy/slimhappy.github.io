@@ -30,3 +30,9 @@ selenium/wiki/ChromeDriver.
 irb(main):026:0> ie = Selenium::WebDriver.for :chrome
 => #<Selenium::WebDriver::Chrome::Driver:0x..f3b57182a browser=:chrome>
 ```
+（IE调用出现问题同上方式解决。以下内容以IE调用为准：）  
+行吧，浏览器总是打开了，但调用current_url方法返回错误  
+```
+Selenium::WebDriver::Error::NoSuchWindowError: Unable to get browser
+```
+查了一下原来是IE11的锅，见dalao博客[解决Ruby在IE11中报Unable to get browser](https://www.cnblogs.com/wozijisun/p/4623473.html)  
