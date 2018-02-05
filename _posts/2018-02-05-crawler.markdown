@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "在w7下使用ruby+selenuim webdriver打开网站"
+date:   2018-02-05 16:00:00
+categories: rubylearning
+---
+
+## 在w7下使用ruby+selenuim webdriver打开网站  
+
+### 前言：safari真好用
+
+上一篇blog使用了ruby+selenuim webdriver在mac下调用safari进行动态网站解析  
+想想用win7+IE应该也不难，没想到却是个大坑
+
+### 找不到driver
+之前用safari根本不用装什么驱动，直接开启开发者模式就好了（mac真好用 emmmm。。）
+上来尝试调用chrome-driver直接报错。
+```ruby
+irb(main):025:0> ie = Selenium::WebDriver.for :chrome
+Selenium::WebDriver::Error::WebDriverError:  Unable to find chromedriver. Please
+ download the server from http://chromedriver.storage.googleapis.com/index.html
+and place it somewhere on your PATH. More info at https://github.com/SeleniumHQ/
+selenium/wiki/ChromeDriver.
+```
+解决方法：  
+1.根据报错信息[地址](http://chromedriver.storage.googleapis.com/index.html)下载驱动。  
+2.将下载的driver解压放到ruby根目录下bin文件夹中  
+3.显示以下信息即解决：  
+```ruby
+irb(main):026:0> ie = Selenium::WebDriver.for :chrome
+=> #<Selenium::WebDriver::Chrome::Driver:0x..f3b57182a browser=:chrome>
+```
