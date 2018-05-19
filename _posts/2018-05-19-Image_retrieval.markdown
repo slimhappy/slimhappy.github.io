@@ -18,7 +18,7 @@ Content-based image retrieval (CBIR), also known as query by image content (QBIC
 
 From Wikipedia [Content-based image retrieval](https://en.wikipedia.org/wiki/Content-based_image_retrieval)
 
-![alt tag](https://github.com/slimhappy/slimhappy.github.io/raw/master/images/1-1.png){:height="40%" width="40%"}  
+![alt tag](https://github.com/slimhappy/slimhappy.github.io/raw/master/images/1-1.png)   
 
 
 
