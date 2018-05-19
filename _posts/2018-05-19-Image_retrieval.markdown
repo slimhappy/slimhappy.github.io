@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "ruby爬虫探索"
-date:   2018-02-04 19:00:00
-categories: rubylearning
+title:  "Image_retrieval"
+date:   2018-05-19 19:00:00
+categories: MasterDegree
 ---
 
 ## 闲来无事想用ruby写个爬虫试试。
