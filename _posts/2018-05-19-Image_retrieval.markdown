@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "《加密域图像检索技术综述》中相关术语解释与理解"
+title:  "《加密域图像检索技术综述》中相关术语解释"
 date:   2018-05-19 19:00:00
 categories: MasterDegree
 ---
@@ -18,6 +18,7 @@ Content-based image retrieval (CBIR), also known as query by image content (QBIC
 
 From Wikipedia [Content-based image retrieval](https://en.wikipedia.org/wiki/Content-based_image_retrieval)
 
+![alt tag](https://github.com/slimhappy/rubytest/raw/master/images/666.jpg)  
 
 
 
